@@ -96,3 +96,7 @@ las siguientes funciones en el siguiente orden
   <a target="_blank" href=""/><img src="https://github.com/miventech/Create-PLY-File/blob/main/ExmaplePLYr.png"/></a>
  
 
+
+# [Donaciones] [Donations]
+[Ayudame con un Cafe](paypal.me/MiVenTech)
+[Help me with a coffee](paypal.me/MiVenTech)
