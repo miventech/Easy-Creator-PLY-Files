@@ -1,7 +1,55 @@
 # Save-PLY-File
 By Jose Jaspe [JaspeCode] [Miventech]
+ 
+# [En-us] (translate)
+  
+  This is a code that allows you to save point cloud files in a PLY file so that it can be used or viewed later by other software
+the script saves it exclusively in the format ```binary_little_endian 1.0```
 
-#### [ES-VE]
+In order to use the project, you must use the main class [SavePLY](https://github.com/miventech/Create-PLY-File/blob/main/SavePLY.cs)
+the following functions in the following order
+
+ ## BeginPLY
+ + BeginPLY (```String``` fileName,``` bool``` usePropertyColor = true, ```bool``` usePropertyNormal = false)
+ 
+ This function creates the header of the file depending on the parameters to be used, the only mandatory parameter is the name of the file ```fileName``` which is the name
+ The file to create will be assigned "Assets / PLY_FILES /```fileName``` "
+ 
+ the other parameters indicate if the file at the time of adding points has the properties such as color or normal per point.
+ 
+ 
+ ## addVertex
+ + addVertex (```Vector3``` position)
+ + addVertex (```Vector3``` position,``` Color32``` color)
+ + addVertex (```Vector3``` position,``` Color32``` color, ```Vector3``` Normal)
+ 
+ Depending on the properties assigned ```BeginPLY``` in you should use the corresponding function.
+ 
+ What this function does is add a specific point to the PLY file, this function must be called every time you want to add a point to the file, and it can
+ be called as many times as you want
+ 
+ It is important to emphasize that these parameters defined in the ```BeginPLY``` function must be taken into account, since if at the time of creating the file header
+ only the property of the color is assigned and not of the normal one, it will not be possible to add points with normals from that moment on. until a new one is built
+ header which destroys all the points created and generates a new file or rewrites it.
+ 
+ 
+ ## endWriteFile ()
+ + endWriteFile ()
+ 
+ This method is used once all the points have been added to the file and you want to finish writing the file in question. it is important to run it since it is
+ the one in charge of adding all the remaining bytes to the file.
+ 
+ ## Example [DemoCloudSavePLY.CS](https://github.com/miventech/Create-PLY-File/blob/main/DemoCloudSavePLY.cs)
+  The code within this file automatically generates a PLY file with random points ```int numberPointsRandom``` and a range of randomity
+  ```float limit```
+  
+  ## Randomly generated example with 50,000 points
+  
+
+  <a target="_blank" href=""/> <img src = "https://github.com/miventech/Create-PLY-File/blob/main/ExmaplePLYr.png" /> </a>
+  
+  
+# [ES-VE]
 Este un codigo que permite guardar archivos nubes de puntos en un archivo PLY para que pueda ser utilizado o visualizado posteriormente por otro software
 el script lo guarda esclusivamente en formato ```binary_little_endian 1.0```
 
@@ -46,4 +94,5 @@ las siguientes funciones en el siguiente orden
   
 
   <a target="_blank" href=""/><img src="https://github.com/miventech/Create-PLY-File/blob/main/ExmaplePLYr.png"/></a>
+ 
 
