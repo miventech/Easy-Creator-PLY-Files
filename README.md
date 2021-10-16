@@ -1,6 +1,14 @@
 # Save-PLY-File
 By Jose Jaspe [JaspeCode] [Miventech]
- 
+
+
+# [Donaciones] [Donations]
+
++ [Ayudame con un Cafe](paypal.me/MiVenTech)
+
++ [Help me with a coffee](paypal.me/MiVenTech)
+
+
 # [En-us] (translate)
   
   This is a code that allows you to save point cloud files in a PLY file so that it can be used or viewed later by other software
@@ -98,5 +106,7 @@ las siguientes funciones en el siguiente orden
 
 
 # [Donaciones] [Donations]
-[Ayudame con un Cafe](paypal.me/MiVenTech)
-[Help me with a coffee](paypal.me/MiVenTech)
+
++ [Ayudame con un Cafe](paypal.me/MiVenTech)
+
++ [Help me with a coffee](paypal.me/MiVenTech)
