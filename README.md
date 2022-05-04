@@ -1,5 +1,5 @@
 # Save-PLY-File
-By Jose Jaspe [JaspeCode] [Miventech]
+By Jose Jaspe [Miventech]
 
 
 # [Donaciones] [Donations]
