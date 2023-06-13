@@ -1,13 +1,5 @@
 # Save-PLY-File
-By Jose Jaspe [Miventech]
-
-
-# [Donaciones] [Donations]
-
-+ [Ayudame con un Cafe](paypal.me/MiVenTech)
-
-+ [Help me with a coffee](paypal.me/MiVenTech)
-
+By Jose Jaspe 
 
 # [En-us] (translate)
   
