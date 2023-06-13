@@ -6,7 +6,7 @@ By Jose Jaspe
   This is a code that allows you to save point cloud files in a PLY file so that it can be used or viewed later by other software
 the script saves it exclusively in the format ```binary_little_endian 1.0```
 
-In order to use the project, you must use the main class [SavePLY](https://github.com/miventech/Create-PLY-File/blob/main/SavePLY.cs)
+In order to use the project, you must use the main class [SavePLY](/main/SavePLY.cs)
 the following functions in the following order
 
  ## BeginPLY
@@ -39,21 +39,21 @@ the following functions in the following order
  This method is used once all the points have been added to the file and you want to finish writing the file in question. it is important to run it since it is
  the one in charge of adding all the remaining bytes to the file.
  
- ## Example [DemoCloudSavePLY.CS](https://github.com/miventech/Create-PLY-File/blob/main/DemoCloudSavePLY.cs)
+ ## Example [DemoCloudSavePLY.CS](/main/DemoCloudSavePLY.cs)
   The code within this file automatically generates a PLY file with random points ```int numberPointsRandom``` and a range of randomity
   ```float limit```
   
   ## Randomly generated example with 50,000 points
   
 
-  <a target="_blank" href=""/> <img src = "https://github.com/miventech/Create-PLY-File/blob/main/ExmaplePLYr.png" /> </a>
+  <a target="_blank" href=""/> <img src = "main/ExmaplePLYr.png" /> </a>
   
   
 # [ES-VE]
 Este un codigo que permite guardar archivos nubes de puntos en un archivo PLY para que pueda ser utilizado o visualizado posteriormente por otro software
 el script lo guarda esclusivamente en formato ```binary_little_endian 1.0```
 
-Para poder usar el proyecto se debe usar de la clase principal [SavePLY](https://github.com/miventech/Create-PLY-File/blob/main/SavePLY.cs)
+Para poder usar el proyecto se debe usar de la clase principal [SavePLY](/main/SavePLY.cs)
 las siguientes funciones en el siguiente orden
 
  ## BeginPLY
@@ -86,19 +86,13 @@ las siguientes funciones en el siguiente orden
  Este metodo se usa una vez se añadieron todos los puntos al archivo y desea finalizar la escritura del archivo en cuestion. es importante ejecutarlo ya que es
  el encargado de agregar todos los bytes restantes al archivo.
  
- ## Ejemplo [DemoCloudSavePLY.CS](https://github.com/miventech/Create-PLY-File/blob/main/DemoCloudSavePLY.cs)
+ ## Ejemplo [DemoCloudSavePLY.CS](/main/DemoCloudSavePLY.cs)
   El codigo dentro de este archivo genera automaticamente un archivo PLY con puntos aleatorios ```int numberPointsRandom``` y un rango de aleatoridad 
   ```float limit```
   
   ## Ejemplo generado aleatoriamente con 50000 puntos
   
 
-  <a target="_blank" href=""/><img src="https://github.com/miventech/Create-PLY-File/blob/main/ExmaplePLYr.png"/></a>
- 
+  <a target="_blank" href=""/><img src="main/ExmaplePLYr.png"/></a>
 
 
-# [Donaciones] [Donations]
-
-+ [Ayudame con un Cafe](paypal.me/MiVenTech)
-
-+ [Help me with a coffee](paypal.me/MiVenTech)
