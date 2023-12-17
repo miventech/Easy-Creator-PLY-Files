@@ -46,7 +46,7 @@ the following functions in the following order
   ## Randomly generated example with 50,000 points
   
 
-  <a target="_blank" href=""/> <img src = "main/ExmaplePLYr.png" /> </a>
+  <a target="_blank" href=""/> <img src = "https://github.com/miventech/Easy-Creator-PLY-Files/blob/main/ExmaplePLYr.png" /> </a>
   
   
 # [ES-VE]
@@ -93,6 +93,6 @@ las siguientes funciones en el siguiente orden
   ## Ejemplo generado aleatoriamente con 50000 puntos
   
 
-  <a target="_blank" href=""/><img src="main/ExmaplePLYr.png"/></a>
+  <a target="_blank" href=""/> <img src = "https://github.com/miventech/Easy-Creator-PLY-Files/blob/main/ExmaplePLYr.png" /> </a>
 
 
